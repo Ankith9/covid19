@@ -89,11 +89,6 @@
         counter = 1;
       }
     }, 3000);
-    const url =
-  "http://newsapi.org/v2/everything?q=COVID-19&apiKey=bac45702ccea49d4b42d1306f5abfa39";
-fetch(`/cors-proxy/${url}`)
-  .then(res => res.text())
-  .then(console.log);
   
       const newsList=document.querySelector('.news-list');
       retreive();
