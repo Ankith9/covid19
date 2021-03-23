@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17;
+}
+
+nav {
+  background: #ffd0d7;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+.logo {
+  flex: 1;
+  margin-left: 50px;
+  
+}
+
+.logo h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  
+}
+.list-items {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s background;
+}
+
+.link:hover {
+  color: #ba4c4a;
+}
+
+.link2 {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.main {
+  background: #ffd0d7;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-left {
+  height: 65%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.img-v {
+  height: 30vw;
+  width: 30vw;
+  max-width: 100%; height: auto;
+}
+
+
+.text {
+  margin-left: 9%;
+  padding-top: 32%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text p {
+  padding-top: 18px;
+  letter-spacing: .5px;
+  line-height: 25px;
+}
+.spa span {
+  height: 60%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+  letter-spacing: 12px;
+  font-weight: bold;
+}
+
+.img-e
+{
+  
+  max-width: 30%; height: auto;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+  margin-left: 10%;
+  
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width : 830px){
+  .corona-update .data-show{
+      grid-template-columns: repeat(2,1fr);
+  }
+
+  .main-header .row .order-1 .fight{
+      text-align: center;
+  }
+}
+.symp{
+  text-align: center;
+}
+
